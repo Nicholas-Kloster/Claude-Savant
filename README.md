@@ -17,3 +17,27 @@ A single Claude Savant slot points to a gist file. Right now, that file holds **
 ---
 
 Full walkthrough: [claude-savant.md](claude-savant.md) · [claude-savant.pdf](claude-savant.pdf)
+
+## Use with Claude Code
+
+Use Claude Code to populate a Savant memory file, design a domain-specific schema, or audit stale entries.
+
+```
+Read README.md and claude-savant.md in this repo (Claude-Savant).
+Then:
+1. Generate a Savant memory file populated from our current working relationship —
+   include: domain expertise signals, preferred output style, shorthand, ongoing projects
+2. Format it to fit within GitHub Gist constraints (under 1MB) with room to grow
+3. Write the Claude memory slot entry I need to create to point Claude at this Gist
+```
+
+```
+I have an existing Savant memory file that's gotten stale.
+Read README.md, then help me:
+1. Audit the file for entries that are outdated, contradictory, or no longer accurate
+2. Reorganize it by domain (security research, coding, writing, personal context)
+3. Add a new section for [domain] based on what you know about my work in this session
+Paste your current Savant file below: [paste here]
+```
+
+---
